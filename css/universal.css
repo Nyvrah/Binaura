@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Din";
+    src: url("../assets/fonts/d_din_pro/otf/D-DIN-PRO-400-Regular.otf");
+}
+
+:root {
+  --font-din: Din;
+  --first: #ffba70;
+  --second: rgb(255, 221, 210);
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 20px;
+    color:white;
+    margin:0;
+}
+
+.nav-bar {
+    position:fixed;
+    width:100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px;
+    box-sizing: border-box;
+}
+
+.icon {
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+
+.nav-title{
+    display: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.scrolled {
+    background-color: rgb(26, 26, 26) !important;
+    transition: background-color 200ms linear;
+}
+
+.show {
+    display: block !important;
+}

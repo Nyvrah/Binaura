@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/user-profile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module" src="js/user-profile.js"></script>
+    <title>User Profile</title>
+</head>
+<body onload="f()">
+    <div class="nav-bar">
+        <img class="icon" src="assets/icons/back-arrow.svg">
+        <div class="nav-title">@vishnurajan</div>
+        <img class="icon" src="assets/icons/share.svg">
+    </div>
+    <div class="profile-image-container">
+        <div class="profile-image"></div>
+    </div>
+    <div class="profile-info-container">
+        <div class="profile-info-title">
+            <div>
+                <div class="profile-name">Vishnu Rajan</div>
+                <div class="profile-username">@vishnurajan</div>
+            </div>
+            <div class="follow-button-container">
+                <div class="follow-button">Follow</div>
+            </div>
+        </div>
+        <div class="profile-media">
+            <div class="profile-menu">
+                <div id="recent-option" class="profile-menu-option">Recent</div>
+                <div id="playlists-option" class="profile-menu-option">Playlists</div>
+                <div id="followers-option" class="profile-menu-option">Followers</div>
+            </div>
+            <div class="profile-content-container">
+                <div class="profile-content recent"></div>
+                <div class="profile-content playlists"></div>
+                <div class="profile-content followers"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
