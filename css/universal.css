@@ -9,6 +9,10 @@
   --second: rgb(255, 221, 210);
 }
 
+html {
+    background-color: rgb(26, 26, 26)
+}
+
 body {
     background-color: rgb(26, 26, 26);
     font-family: "Roboto";
